@@ -11,7 +11,7 @@ root.render(
   <>
 
     <Hello name="Redouane"/>
-    <Hello2 age="22"/>
+    <Hello2 age={22}/>
   </>
 );
 
