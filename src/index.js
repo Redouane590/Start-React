@@ -10,8 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
 
-    <Hello />
-    <Hello2 />
+    <Hello name="Redouane"/>
+    <Hello2 age="22"/>
   </>
 );
 
