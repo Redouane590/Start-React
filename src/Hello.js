@@ -5,5 +5,5 @@ export default function Hello() {
 }
 
 export function Hello2() {
-  return <h3>Bonjour ceci est deuxieme composant exporté </h3>
+  return <h3>Bonjour ceci est deuxieme composant exporté nommé </h3>
 }
