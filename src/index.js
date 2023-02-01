@@ -5,9 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+function Hello() {
+  return <h2>Bonjour ceci est mon premier composant</h2>
+}
+
 root.render(
   <React.StrictMode>
     <App />
+    <Hello></Hello>
   </React.StrictMode>
 );
 
