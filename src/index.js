@@ -10,7 +10,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
 
-    <Hello2 name="Redouane" age={22}/>
+    <Hello2 name="Redouane" age={22}>
+      <button>ce Button est issu de la props children</button>
+    </Hello2>
 
   </>
 );

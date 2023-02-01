@@ -5,5 +5,10 @@ export default function Hello({age, name}) {
 }
 
 export function Hello2(props) {
-  return <Hello { ...props }/>;
+  return (
+<>
+  <Hello { ...props }/>,
+    { props.children }
+    </>
+  );
 }
