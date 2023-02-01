@@ -1,19 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Hello, { Hello2 } from './Hello'
 const root = ReactDOM.createRoot(document.getElementById('root'));
-function Hello() {
-  return <h2>Bonjour ceci est mon premier composant</h2>
-}
+
 
 root.render(
-  <React.StrictMode>
-    <App />
-    <Hello></Hello>
-  </React.StrictMode>
+  <>
+
+    <Hello />
+    <Hello2 />
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
