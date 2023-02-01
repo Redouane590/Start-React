@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Hello, { Hello2 } from './Hello'
+import  { Hello2 } from './Hello'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
   <>
 
-    <Hello name="Redouane"/>
-    <Hello2 age={22}/>
+    <Hello2 name="Redouane" age={22}/>
+
   </>
 );
 
